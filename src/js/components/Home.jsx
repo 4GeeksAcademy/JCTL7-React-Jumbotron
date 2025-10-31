@@ -29,22 +29,22 @@ import rigoImage from "../../img/rigo-baby.jpg";
 //	);
 //};
 const cardData = [
-    { id: 1, imageUrl: "...", title: "Card Title 1", description: "Lorem ipsum dolor sit amet...", buttonLabel: "Find Out More!", buttonUrl: "#" },
-    { id: 2, imageUrl: "...", title: "Card Title 2", description: "Consectetur adipiscing elit...", buttonLabel: "Find Out More!", buttonUrl: "#" },
-    { id: 3, imageUrl: "...", title: "Card Title 3", description: "Sed do eiusmod tempor...", buttonLabel: "Find Out More!", buttonUrl: "#" },
-    { id: 4, imageUrl: "...", title: "Card Title 4", description: "Ut labore et dolore magna aliqua...", buttonLabel: "Find Out More!", buttonUrl: "#" },
+    { id: 1, imageUrl: "https://www.dzoom.org.es/wp-content/uploads/2010/09/mirada-ojos-encuadre-primer-plano-sexy-810x540.jpg", title: "PAncho", description: "Lorem ipsum dolor sit amet...", buttonLabel: "Vamos!", buttonUrl: "#" },
+    { id: 2, imageUrl: "https://images.ctfassets.net/h6goo9gw1hh6/2sNZtFAWOdP1lmQ33VwRN3/e40b6ea6361a1abe28f32e7910f63b66/1-intro-photo-final.jpg?w=1200&h=992&fl=progressive&q=70&fm=jpg", title: "Almudena", description: "Consectetur adipiscing elit...", buttonLabel: "Adelante!", buttonUrl: "#" },
+    { id: 3, imageUrl: "https://www.photopills.com/sites/default/files/articles/2021/2020-photopiller-del-ano.jpg", title: "Radamis", description: "Sed do eiusmod tempor...", buttonLabel: "Bora!", buttonUrl: "#" },
+    { id: 4, imageUrl: "https://media.sproutsocial.com/uploads/2022/06/profile-picture.jpeg", title: "Julio", description: "Ut labore et dolore magna aliqua...", buttonLabel: "Patri!", buttonUrl: "#" },
 ];
 
 const Home = () => {
     return (
         <>
-            <Navbar brand="Start Bootstrap" />
+            <Navbar brand="Arranca!!" />
             
             <div className="container"> 
                 <Jumbotron 
                     title="A Warm Welcome!"
                     text="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, ipsam, eligendi, in quo sunt possimus non incidunt odit vero aliquid similique quaerat nam nobis illo aspernatur vitae fugiat num..."
-                    buttonLabel="Call to action!"
+                    buttonLabel="Pulsame!"
                     buttonUrl="#"
                 />
                 <div className="row">
